@@ -2,22 +2,26 @@ import React from "react";
 
 function AboutUs() {
   return (
-    <div>
-      <h1>About Student Performance Tracker</h1>
+    <div className="about-us-container">
+      <h1>About e-Plant Shopping</h1>
+
       <p>
-        This project helps track student academic performance by calculating
-        total marks, average, and grades.
+        Welcome to e-Plant Shopping, your one-stop destination for buying plants
+        online. We are passionate about bringing greenery into your homes and
+        making plant shopping easy and accessible for everyone.
       </p>
 
-      <h3>Features:</h3>
-      <ul>
-        <li>Input student marks</li>
-        <li>Calculate average</li>
-        <li>Display grade</li>
-      </ul>
+      <p>
+        Our mission is to provide high-quality plants and gardening products
+        while promoting a greener and healthier lifestyle. We offer a wide range
+        of indoor and outdoor plants to suit every need.
+      </p>
 
-      <h3>Technologies Used:</h3>
-      <p>Python / JavaScript</p>
+      <p>
+        At e-Plant Shopping, customer satisfaction is our priority. We ensure
+        safe delivery and excellent service to help you grow your own green
+        space effortlessly.
+      </p>
     </div>
   );
 }
